@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <h1>Contacto</h1>
+
+    <!-- Elementos de formularios -->
+
+    <!--        
+           <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" maxlength="15">
+        <br>
+
+         <input type="checkbox"> 
+        <br>
+        <input type="radio" name="" id="">
+        <br>
+        <input type="radio" name="" id="">
+        <br>
+        <input type="date" name="" id="">
+        <br>
+        <input type="color" name="" id="">
+        <br>
+        <input type="file">
+        <br>
+        <input type="file" multiple>
+
+         <label for="">Imagenes</label>
+        <input type="file" accept="image/*">
+        <br>
+        <label for="">Audio</label>
+        <input type="file" accept="audio/*">
+        <br>
+        <label for="">Video</label>
+        <input type="file" accept="video/*">
+        <br> 
+        <br>
+        <label for="">Número</label> <br>
+        <input type="number" name="" id="" min="3" max="9">
+
+        <br>
+        <label for="">Correo</label> <br>
+        <input type="email">
+
+        <br><br><br>
+         <input type="button" value="Cancelar">
+        <br> 
+        <input type="submit" value="Enviar solicitud">
+        <br>
+        <input type="reset">
+        <br>
+-->
+
+    <form action="noticias.html" >
+        <label for="txtNombre">Nombre</label>
+        <input type="text" name="nombre" id="txtNombre" placeholder="Ingrese Nombre" minlength="3" maxlength="20" title="Nombre" required style="text-transform:capitalize;">
+
+        <br><br>
+
+        <label for="txtApellido">Apellido</label>
+        <input type="text" name="apellido" id="txtApellido" placeholder="Ingrese Apellido" minlength="2" maxlength="15" title="Apellido" required style="text-transform:capitalize;">
+        <br><br>
+
+        <label for="txtfechanacimiento">Fecha nacimiento</label><br>
+        <input type="date" name="fechanacimiento" id="txtfechanacimiento">
+        <br><br>
+
+        <label for="">Días de Contacto</label><br>
+        <input type="checkbox" name="lunes" id="" checked> Lunes
+        <input type="checkbox" name="martes" id=""> Martes
+        <input type="checkbox" name="miercoles" id="" checked> Miércoles
+        <input type="checkbox" name="jueves" id=""> Jueves
+        <input type="checkbox" name="viernes" id=""> Viernes
+        <br><br>
+        <label for="chkSexo">Sexo</label> <br>
+        <input type="radio" name="sexo" id="chkSexo" value="femenino"> Femenino
+        <input type="radio" name="sexo" id="chkSexo" value="masculino"> Masculino
+
+        <br><br>
+        <label for="selHorario">Horario de contacto</label>
+        <br>
+        <select name="horario" id="selHorario">
+            <option value="M" selected>Mañana 9-12hs</option>
+            <option value="T" >Tarde 13-17hs</option>
+            <option value="N" >Noche 19-21hs</option>
+        </select>
+
+
+        <br><br>
+        <label for="selProvincia">De que provincia nos contactas</label>
+        <br>
+        <select name="provincia" id="selProvincia" required>
+            <option value="1">Buenos Aires</option>
+            <option value="2">Catamarca</option>
+            <option value="3">Córdoba</option>
+            <option value="4">Corrientes</option>
+            <option value="5">Chaco</option>
+            <option value="6">Chubut</option>
+            <option value="7">Entre Ríos</option>
+            <option value="8">Formosa</option>
+            <option value="9">Jujuy</option>
+            <option value="10">La Pampa</option>
+            <option value="11">La Rioja</option>
+            <option value="12">Mendoza</option>
+            <option value="13">Misiones</option>
+            <option value="14">Neuquén</option>
+            <option value="15">Río Negro</option>
+            <option value="16">Salta</option>
+            <option value="17">San Juan</option>
+            <option value="18">San Luis</option>
+            <option value="19">Santa Cruz</option>
+            <option value="20">Santa Fe</option>
+            <option value="21">Santiago del Estero</option>
+            <option value="22" >Tucumán</option>
+            <option value="23">Tierra del Fuego</option>
+            <option disabled selected value="">Seleccionar una Provincia</option>            
+</select>
+
+        <br><br>
+        <label for="txtmotivo">Motivo del contacto</label> <br>
+        <textarea name="motivo" id="txtmotivo" cols="50" rows="3" style="font-weight: bold;"></textarea>
+
+        <br><br><br>
+        <label for="">Contraseña</label>
+        <input type="password" name="" id="">
+
+        <br><br><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar datos">
+
+    </form>
+
+</body>
+
+</html>

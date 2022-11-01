@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:ital,wght@0,100;1,300&display=swap');
+header {
+    height: 250px;
+    background-image: url("../img/encabezado.jpg");
+    background-repeat: no-repeat;
+    background-color: #2D2D33;
+}
+
+body {
+    font-family: "Montserrat Regular", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+    color: #f3ec2c;
+}
+
+
+/* article {
+    margin: 5px 5px;
+} */
+
+.nav-menu-principal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darksalmon;
+    font-weight: bold;
+    border-color: #EEEEEE;
+    font-family: "Lato", sans-serif;
+    color: #424143
+}
+
+nav a {
+    padding: 10px 10px;
+}
+
+.articulo-juego {
+    background-color: gray;
+    color: white;
+    height: 100%;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.articulo-juego img {
+    aspect-ratio: auto;
+}
+
+footer {
+    background-color: #37373f;
+    color: #eee;
+}
+
+footer a p {
+    color: white;
+}
+
+.iconos-redes-sociales img {
+    height: 25px;
+    width: auto;
+    padding: 10px;
+}
+
+#whatsapp-logo {
+    position: fixed;
+    right: 18px;
+    bottom: 20px;
+    width: 70px;
+}
+
+.section-proximos-lanzamientos {
+    width: 100%;
+}
+
+.article-proximos-lanzamientos {
+    background-color: cadetblue;
+    color: blue;
+}
